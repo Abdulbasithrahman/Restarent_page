@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swadd Restaurent</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+   <body>
+    <nav>
+        <ul class="nav-flex-row">
+            <img src="./img/reslogo.png" style="float: left;width: 90px;height: 90px;position: absolute; top: 0;left: 16px;"/>
+            <li class="nav-item">
+                <a href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#reservation">Reservation</a>
+            </li>
+            <li class="nav-item">
+                <a href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a href="#shop">Shop</a>
+            </li>
+        </ul>
+    </nav>
+    <section class="section-intro">
+        <header>
+            <h1>Swadd Restaurent</h1>
+        </header>
+    </section>
+    <section class="about-section">
+        <article>
+            <h3>BEST FOOD PLACE</h3>
+            <p>Restaurant provides with all the amenities that one requires for a shift of mood or change in environment to cherish the pleasant atmosphere and enjoy different cuisines to satisfy your hunger. Restaurant provides with all the amenities that one requires for a shift of mood or change in environment to cherish the pleasant atmosphere and enjoy different cuisines to satisfy your hunger.</p>
+        </article>
+    </section>
+    <div id="image-carousel">
+        <ul id="slide-container">
+           <li><img src="img/resbackground.jpg" alt="img1"/></li>
+           <li><img src="img/scrollimg2.jpg" alt="img2"/></li>
+           <li><img src="img/scrollimg3.jpg" alt="img3"/></li>
+        </ul>
+        <a id="prev-image" >&lt;</a>
+        <a id="next-image" >&gt;</a>
+    </div>
+    <div class="menu" id="menu">
+        <p style="text-align: center; font-size: 50px;">SWADD MENU</p>
+        <button type="button" class="collapsible"><b>Starters</b></button>
+        <div class="content">
+           <img src="" style="padding-top: 10px;float: right; width: 100px;height: 100px;right: 16px;position: relative;border: 2px;"/>
+           <p>Honey Chilly Chicken---------  Rs.300/-</p>
+           <br/>
+           <br/>
+           <p>Baby Corn Sticks ----------- Rs.200/-</p>
+        </div>
+        <button type="button" class="collapsible"><b>Juices</b></button>
+        <div class="content">
+           <img src="" style="padding-top: 10px;float: right; width: 100px;height: 100px;right: 16px;position: relative;border: 2px;"/>
+           <p>Lemon Soda---------  Rs.80/-</p>
+           <br/>
+           <br/>
+           <p>Apple Shake ----------- Rs.120/-</p>
+        </div>
+        <button type="button" class="collapsible"><b>Main Course</b></button>
+        <div class="content">
+           <img src="" style="padding-top: 10px;float: right; width: 100px;height: 100px;right: 16px;position: relative;border: 2px;"/>
+           <p>Chicken Biriyani---------  Rs.100/-</p>
+           <br/>
+           <br/>
+           <p>Fish Combo Biriyani ----------- Rs.800/-</p>
+        </div>
+        <button type="button" class="collapsible"><b>Desserts</b></button>
+        <div class="content">
+           <img src="" style="padding-top: 10px;float: right; width: 100px;height: 100px;right: 16px;position: relative;border: 2px;"/>
+           <p>Mutton soup---------  Rs.330/-</p>
+           <br/>
+           <br/>
+           <p> Gudbud ----------- Rs.200/-</p>
+        </div>
+    </div>
+    <div class="container" id="footer">
+        <div class="row-flex">
+            <div class="flex-column-form">
+                <h3>Make a reservation</h3>
+                <form class="media-centered">
+                      <div  class="form-group">
+                          <p>Share your contact to know about exciting offers</p>
+                          <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Enter your Name"/>
+                      </div>
+                      <div class="form-group">
+                          <input type="number" class="form-control" id="exampleInputPhoneNumber1" placeholder="Enter your Number"/>
+                      </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="timings">
+                 <h3>Opening Hours</h3>
+                 <p>
+                    <span>Mon -- Thu: 08:00 AM -- 10:00 PM</span>
+                    <span>Fri -- Sat: 09:00 AM -- 10:00 PM</span>
+                    <span>Sunday: 10:00 AM -- 10:00 PM</span>
+                 </p>
+            </div>
+            <div class="contact-address">
+                <h3>Contact</h3>
+                <p>
+                    <span>+91- 8888128848</span>
+                    <span>Bangalore</span>
+                    <span>Karnataka, India.</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+   </body>
+</html>
